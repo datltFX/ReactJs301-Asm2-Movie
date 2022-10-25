@@ -1,0 +1,39 @@
+.details {
+  display: flex;
+  flex-direction: row;
+  height: 420px;
+  background: black;
+  padding: 30px 20px 0px 30px;
+}
+
+.details > div {
+  width: 50%;
+  color: white;
+}
+
+.details__title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.details > div > div {
+  font-size: 20px;
+  padding: 15px 0;
+}
+
+.details__description {
+  font-weight: 400;
+  font-size: 17px;
+  text-align: left;
+}
+
+.videoTrailers {
+  margin-top: -30px;
+  padding: 20px 0px 0 20px;
+}
+
+.videoTrailers > img {
+  width: 100%;
+}
