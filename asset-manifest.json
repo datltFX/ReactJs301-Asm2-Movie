@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ReactJs301-Asm2-Movieapp/static/css/main.88345201.css",
+    "main.js": "/ReactJs301-Asm2-Movieapp/static/js/main.dcd63f09.js",
+    "index.html": "/ReactJs301-Asm2-Movieapp/index.html",
+    "static/media/SearchLogo.svg": "/ReactJs301-Asm2-Movieapp/static/media/SearchLogo.497ddbc16cad9ed8c0eb53bb431d5c0d.svg",
+    "main.88345201.css.map": "/ReactJs301-Asm2-Movieapp/static/css/main.88345201.css.map",
+    "main.dcd63f09.js.map": "/ReactJs301-Asm2-Movieapp/static/js/main.dcd63f09.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88345201.css",
+    "static/js/main.dcd63f09.js"
+  ]
+}
