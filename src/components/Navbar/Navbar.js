@@ -1,7 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import "./Navbar.css";
 import SearchLogo from "./SearchLogo.svg";
 
@@ -10,20 +9,20 @@ const Navbar = () => {
   const [show, setShow] = useState(false);
 
   //hook useEffect xu ly su kien cuon
-//   useEffect(() => {
+  useEffect(() => {
     //su kien scroll
-//     window.addEventListener("scroll", () => {
-//       if (window.scrollY > 100) {
-//         setShow(true);
-//       } else {
-//         setShow(false);
-//       }
-//     });
-//     //cleanup
-//     return () => {
-//       window.removeEventListener("scroll");
-//     };
-//   }, []);
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        setShow(true);
+      } else {
+        setShow(false);
+      }
+    });
+    //cleanup
+    return () => {
+      window.removeEventListener("scroll");
+    };
+  }, []);
 
   //ham chuyen trang chu
   const handlerHome = () => {
@@ -32,8 +31,7 @@ const Navbar = () => {
 
   //ham chuyen trang tim kiem
   const handlerSearch = () => {
-        navigate("/search");
-//     window.location.replace("/search");
+    window.location.replace("/search");
   };
 
   //render
