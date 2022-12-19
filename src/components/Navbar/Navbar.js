@@ -28,13 +28,12 @@ const Navbar = () => {
 
   //ham chuyen trang chu
   const handlerHome = () => {
-    window.location.replace("/");
+   navigate("/");
   };
 
   //ham chuyen trang tim kiem
   const handlerSearch = () => {
         navigate("/search");
-//     window.location.replace("/search");
   };
 
   //render
