@@ -16,7 +16,7 @@ const MovieList = ({ title, fetchUrl, isLargePoster }) => {
     const fetchData = async () => {
       const request = await axios.get(fetchUrl);
       setMovies(request.data.results);
-      console.log(request.data.results);
+//       console.log(request.data.results);
       return request;
     };
     //goi api
